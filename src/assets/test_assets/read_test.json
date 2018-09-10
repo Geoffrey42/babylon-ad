@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4049238868200975, 48.82094216189432]
+      },
+      "properties": {
+        "event_type": "imp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3645320381923534, 48.816341825787724]
+      },
+      "properties": {
+        "event_type": "imp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3274838513968072, 48.86982967859056]
+      },
+      "properties": {
+        "event_type": "imp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.23284629237154, 48.89111120713999]
+      },
+      "properties": {
+        "event_type": "imp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.23284629237154, 48.89111120713999]
+      },
+      "properties": {
+        "event_type": "click"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4204737962258305, 48.85038737901075]
+      },
+      "properties": {
+        "event_type": "imp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4214870126092594, 48.86339618816508]
+      },
+      "properties": {
+        "event_type": "imp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4144620076022436, 48.876530301936576]
+      },
+      "properties": {
+        "event_type": "imp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2470618097659285, 48.88845096504584]
+      },
+      "properties": {
+        "event_type": "imp"
+      }
+    }
+  ]
+}
