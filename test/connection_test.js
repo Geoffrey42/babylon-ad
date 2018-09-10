@@ -2,11 +2,9 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 mongoose.Promise = global.Promise;
+const MLAB_URI = process.env.MLAB_URI;
 
 before(done => {
-  const MLAB_URI = process.env.MLAB_URI;
-  console.log("MLAB_URI: ", MLAB_URI);
-
   mongoose.connect(
     MLAB_URI,
     { useNewUrlParser: true }
@@ -20,4 +18,11 @@ before(done => {
     .on("error", error => {
       console.warn("Error during connection : ", error);
     });
+});
+
+beforeEach("Delete mapEvents", done => {
+  const { mapevents } = mongoose.connection.collections;
+  mapevents.drop(() => {
+    done();
+  });
 });
