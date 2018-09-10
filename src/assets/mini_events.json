@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4049238868200975, 48.82094216189432]
+      },
+      "properties": {
+        "event_type": "imp"
+      }
+    }
+  ]
+}
