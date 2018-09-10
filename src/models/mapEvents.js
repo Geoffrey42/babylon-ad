@@ -14,6 +14,6 @@ const MapEventSchema = new mongoose.Schema({
   features: [FeatureSchema]
 });
 
-const MapEvent = mongoose.model("MapEvent", MapEventSchema);
+const MapEvent = mongoose.model("mapEvent", MapEventSchema);
 
 module.exports = MapEvent;
