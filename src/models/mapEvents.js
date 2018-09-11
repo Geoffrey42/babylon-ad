@@ -9,6 +9,7 @@ const FeatureSchema = new mongoose.Schema({
   properties: { event_type: String }
 });
 
+FeatureSchema.index({ geometry: "2dsphere" });
 const MapEventSchema = new mongoose.Schema({
   type: String,
   features: [FeatureSchema]
