@@ -3,7 +3,7 @@ require("dotenv").config();
 
 mongoose.Promise = global.Promise;
 const MLAB_URI = process.env.MLAB_URI;
-
+mongoose.set("useCreateIndex", true);
 before(done => {
   mongoose.connect(
     MLAB_URI,
