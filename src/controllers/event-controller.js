@@ -1,4 +1,4 @@
-const Event = require("../models/event");
+const Event = require("../models/events");
 
 module.exports = {
   readAll(req, res) {
